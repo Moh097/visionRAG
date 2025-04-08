@@ -1,0 +1,983 @@
+Folder PATH listing
+Volume serial number is BC5E-FFEC
+C:.
+|   folder_structure.txt
+|   LICENSE
+|   README.md
+|   test.ipynb
+|   
++---.vscode
+|       settings.json
+|       
++---docker
+|       .env
+|       .gitignore
+|       docker-compose.yml
+|       
+\---src
+    |   .env
+    |   .gitignore
+    |   app.py
+    |   main.py
+    |   requirements.txt
+    |   
+    +---assets
+    |   |   .gitignore
+    |   |   .gitkeep
+    |   |   mini-rag-app.postman_collection.json
+    |   |   
+    |   +---database
+    |   |   \---qdrant_db
+    |   |       |   .lock
+    |   |       |   meta.json
+    |   |       |   
+    |   |       \---collection
+    |   |           \---collection_1
+    |   |                   storage.sqlite
+    |   |                   
+    |   \---files
+    |       \---1
+    |               00nqtjol5ydj_record_587.txt
+    |               032ietvpgi0k_record_628.txt
+    |               04niciphh0f7_record_492.txt
+    |               0a2trhmlcrvz_record_3.txt
+    |               0akgi2dz1bq7_record_194.txt
+    |               0azdxp62ho1g_record_479.txt
+    |               0b3ypep5elif_record_159.txt
+    |               0bmso0kiepqu_record_616.txt
+    |               0bwf0e41nwyg_record_667.txt
+    |               0co0z3mh1464_record_20.txt
+    |               0cq97jezra1f_record_96.txt
+    |               0eqrr853mt5x_record_606.txt
+    |               0f9924vab4y2_record_299.txt
+    |               0h1da3q08jr8_record_442.txt
+    |               0k1hkea585vp_record_709.txt
+    |               0lv0pjiulf6u_wiki.txt
+    |               0p3li0wdx0if_record_447.txt
+    |               0p5qy0gcrr4c_wiki.txt
+    |               0qbsch82ucux_record_471.txt
+    |               0sv56hnjvypd_record_92.txt
+    |               0vdgvqfsjdrv_record_565.txt
+    |               0y8xoa6l2z6b_record_378.txt
+    |               12k846s0tig6_record_10.txt
+    |               14ys7g5wgey1_record_539.txt
+    |               1b1sz5tkktkn_record_513.txt
+    |               1cgdb1txspjo_record_365.txt
+    |               1clizdgdwfvq_record_220.txt
+    |               1e98yr0e8a4k_record_231.txt
+    |               1g3lx38mbj5q_record_665.txt
+    |               1l1dmuqc7268_record_584.txt
+    |               1pj5b82s4d7d_record_129.txt
+    |               1sv9jweeswil_record_491.txt
+    |               1updnfv1uont_record_619.txt
+    |               1vblnlsy898p_record_195.txt
+    |               1wbq8d7w1n4p_record_168.txt
+    |               1yapkrb1idda_record_382.txt
+    |               20gjo50gzuy5_record_638.txt
+    |               20u74p5vth0i_record_494.txt
+    |               23tu7n7nd14s_record_321.txt
+    |               23wb7etemzex_record_512.txt
+    |               26bbuc5zfv7m_record_548.txt
+    |               26icpajawrrd_record_106.txt
+    |               28ucgy1ldrmf_record_387.txt
+    |               29ejisachenc_record_545.txt
+    |               2aejf5h3rfb8_record_398.txt
+    |               2cmszzbdwn09_record_283.txt
+    |               2cp56vejugev_record_401.txt
+    |               2d6vww5wm73d_record_626.txt
+    |               2dwocnyrrmoe_record_328.txt
+    |               2hhf81khyjgx_record_57.txt
+    |               2i6qzr6gt3fw_record_22.txt
+    |               2i8g9lbg5l79_record_356.txt
+    |               2mczv8y07ag3_record_499.txt
+    |               2nv18wasfl4e_record_649.txt
+    |               2q26rbikctgf_record_24.txt
+    |               2usgbwr7y8uk_record_706.txt
+    |               323w63ai5pta_record_535.txt
+    |               3397xbf225l9_record_405.txt
+    |               33h583eccwz4_record_55.txt
+    |               33ztirhkytxy_record_280.txt
+    |               34y6p2q1qnzw_record_252.txt
+    |               3510zzm0odue_record_125.txt
+    |               39kn52rpmbdd_record_516.txt
+    |               39w0eg5xm4jk_record_726.txt
+    |               3bbqpng0p0dg_record_267.txt
+    |               3bs7n0tdbhr6_record_518.txt
+    |               3bw3pvaa1673_record_704.txt
+    |               3bwqbk2xfepk_record_647.txt
+    |               3cmlu0w21k6d_record_341.txt
+    |               3k89ijgx1dmx_record_118.txt
+    |               3khgayvcbe83_record_289.txt
+    |               3oob9e8n8bii_record_464.txt
+    |               3p85uee347qt_record_122.txt
+    |               3pbvmjss052d_record_197.txt
+    |               3u14cwr6n46m_record_170.txt
+    |               3u345pxxe4u9_record_286.txt
+    |               3z80o3h8uxln_record_165.txt
+    |               424z36wwwk2u_record_519.txt
+    |               43rwxlfgwcux_record_724.txt
+    |               473dno1zhkbv_record_146.txt
+    |               4aftr3ejc93i_record_261.txt
+    |               4aps7wai1bs0_record_487.txt
+    |               4cqcrnyljwi4_record_251.txt
+    |               4dhz1lc7on6p_record_678.txt
+    |               4fq4tp53m4w3_record_526.txt
+    |               4iegmg90uo2a_record_630.txt
+    |               4iyetc9h6iip_record_13.txt
+    |               4m4qlcgs4h0h_record_643.txt
+    |               4o2241csdpis_record_348.txt
+    |               4psvjewf2590_record_544.txt
+    |               4sr983i3juz9_record_716.txt
+    |               4timvh9skqig_record_62.txt
+    |               4yon5p388lxn_record_227.txt
+    |               4z6rp7vpu9cr_record_196.txt
+    |               50un6brf2qyl_record_634.txt
+    |               515oe2ec07kd_record_302.txt
+    |               53g22j4r46b8_record_411.txt
+    |               54jk9eettyvp_record_307.txt
+    |               54k82g4o6r92_record_259.txt
+    |               54rfjbusreu7_record_691.txt
+    |               56lg7ac391dt_record_334.txt
+    |               59jyddwqpxal_record_99.txt
+    |               5arr21i27xaq_record_58.txt
+    |               5c3qnk07jx0r_record_36.txt
+    |               5dj49h52b3dg_record_525.txt
+    |               5k7ga1i5gq1u_record_177.txt
+    |               5pdo3nnmr0q6_record_17.txt
+    |               5pp2kudecni7_record_451.txt
+    |               5qd4qpvb94gv_record_497.txt
+    |               5sihpy1dz7mb_record_407.txt
+    |               5tgmxxbfw5q8_record_275.txt
+    |               5uoonj1vsong_record_95.txt
+    |               5w2nsg0p0m99_record_113.txt
+    |               5w825j0ob2zt_record_80.txt
+    |               5wirivoymund_record_601.txt
+    |               5xgtw1wsr87f_record_202.txt
+    |               5xrq3gdeq5do_record_689.txt
+    |               5y5j2gb1gdel_record_131.txt
+    |               5y7u8tcxm6rb_record_225.txt
+    |               5y9plk0n1h1w_record_693.txt
+    |               61ljyha1clv9_record_663.txt
+    |               61twp1k3t5nc_record_579.txt
+    |               62cydn230n7x_record_1.txt
+    |               62d6wc8bpidz_record_218.txt
+    |               65ounko7g9qg_record_445.txt
+    |               661d8xudz7cs_record_21.txt
+    |               66va0y1t9y7i_record_2.txt
+    |               68qvtq2tprl4_record_668.txt
+    |               6a5nslsn077n_record_100.txt
+    |               6abj8b6mi8ft_record_314.txt
+    |               6adreb8gfchz_record_475.txt
+    |               6cfxou9ahk54_record_180.txt
+    |               6crxhz2fig2d_record_478.txt
+    |               6dd16a8uu0z3_record_155.txt
+    |               6jes4f9csigs_record_333.txt
+    |               6kgy7cbxu6yf_record_354.txt
+    |               6kko1xs8dire_record_577.txt
+    |               6l3nfjxwpuge_record_688.txt
+    |               6non2ab9h71i_record_551.txt
+    |               6oe5c2vca8dz_record_279.txt
+    |               6sdzp48hbwu0_record_134.txt
+    |               6t50hyf036zz_record_409.txt
+    |               6ut1pof3owis_record_369.txt
+    |               6v336ksw65oi_record_88.txt
+    |               6vrmrwvmm7h0_record_60.txt
+    |               6wbi1mezcuzx_record_264.txt
+    |               6xl2caz8fq1w_record_424.txt
+    |               6yprbvpsnk1o_record_149.txt
+    |               72fv6vwl5wh5_record_239.txt
+    |               72hzxqaro7yf_record_585.txt
+    |               72kycj02madx_record_376.txt
+    |               7468x9uzp7yx_record_51.txt
+    |               781mokh48mll_record_633.txt
+    |               78b3vj7ww3bh_record_97.txt
+    |               7cb1d4bhnmxi_record_602.txt
+    |               7diwkczwyaah_record_514.txt
+    |               7kpy9q0gv7kf_record_209.txt
+    |               7n64pnbb5cx3_record_586.txt
+    |               7oueh6hrmh2l_record_379.txt
+    |               7q65ll6fpz2k_record_288.txt
+    |               7r18g6rzmltz_record_85.txt
+    |               7sqmupyodrf8_record_520.txt
+    |               7t0xz6941q9c_record_335.txt
+    |               7t3az4wwkkzr_record_680.txt
+    |               7w9rxd5b117w_record_686.txt
+    |               7x52sbewp0m1_wiki.txt
+    |               81o5gsrn0mjt_record_415.txt
+    |               81rgna4tfpwv_record_625.txt
+    |               829cgkv7pdto_record_84.txt
+    |               8418adj9xmp9_record_87.txt
+    |               866u6s6brztw_record_103.txt
+    |               87yhx15eh7oz_record_569.txt
+    |               8doz98ogzw6x_record_690.txt
+    |               8f57dbfkn0qi_record_533.txt
+    |               8ioddcdflo64_record_43.txt
+    |               8k3iuo7voa5b_record_29.txt
+    |               8kzq9qal7n6m_record_223.txt
+    |               8lu7m71p9q8i_record_573.txt
+    |               8lvvn81psaub_record_74.txt
+    |               8m7r63unj21w_record_206.txt
+    |               8pm9i2nrd3g2_record_169.txt
+    |               8q5q0elp0fby_record_189.txt
+    |               8t6c4wn466bo_record_255.txt
+    |               8t91v0dwd5v2_record_510.txt
+    |               8urofyvtq6sc_record_161.txt
+    |               8wut03ganx56_record_90.txt
+    |               8x2a0t7jupci_record_435.txt
+    |               8yehk4f7pe7n_record_298.txt
+    |               8ygvwr04gcvg_record_31.txt
+    |               8ytp8s8bytjj_record_744.txt
+    |               92xuo4wrp731_record_677.txt
+    |               946398o0xjq3_record_644.txt
+    |               9494l5m89ms4_record_245.txt
+    |               94o7o7blp8nb_record_207.txt
+    |               95xomwlv0hl9_record_83.txt
+    |               96ls8xvq5jv3_record_641.txt
+    |               96o92ol6oi0o_record_190.txt
+    |               97x30eu04yj0_record_315.txt
+    |               98jvudporczd_record_683.txt
+    |               9b4it5pdxo2l_record_39.txt
+    |               9b6hzlobadoe_record_423.txt
+    |               9c79jk7m71eh_record_49.txt
+    |               9enqw3ep0p3s_record_110.txt
+    |               9i2hrdijcgkl_record_444.txt
+    |               9ipgkz182f7q_record_696.txt
+    |               9lfraxqcrdva_record_301.txt
+    |               9lof02whtbp1_record_132.txt
+    |               9mkg5a0qbjeb_record_304.txt
+    |               9qwdzy2snzya_record_368.txt
+    |               9rxqbu4tsiyz_record_18.txt
+    |               9scccskz8tqx_record_86.txt
+    |               9t3udkspq8ac_record_303.txt
+    |               9t9hf4bqmpeu_record_325.txt
+    |               9xuwpcb9t2h6_record_248.txt
+    |               9xx4i44zwces_record_495.txt
+    |               a20lu1cyexu4_wiki.txt
+    |               a3bk59swgriq_record_81.txt
+    |               a4pzir3fj5z4_record_383.txt
+    |               a53qe6kv9vno_record_50.txt
+    |               a6lr7tcu4j45_record_277.txt
+    |               a8a5nymhh93m_record_637.txt
+    |               aa5c33zsayfg_record_456.txt
+    |               aaccnvsqabje_record_116.txt
+    |               aasc9xwneqkg_record_599.txt
+    |               ae0xgkvu8urm_record_47.txt
+    |               aey8wuwqypje_record_531.txt
+    |               ai407blvumzd_record_436.txt
+    |               aijakr3rolmy_record_123.txt
+    |               ajbx5ixq4iqw_record_618.txt
+    |               alsr2b6fzavs_record_536.txt
+    |               anhnt053vg81_record_152.txt
+    |               asgcdb46hk6c_record_247.txt
+    |               asw9eou14e4g_record_91.txt
+    |               avdbh9lu7hjm_record_312.txt
+    |               aysfjwwn9hwy_record_722.txt
+    |               b0agvk4usbx0_record_246.txt
+    |               b1s1avc64jpu_record_73.txt
+    |               b2dtmucc9j1r_record_393.txt
+    |               b3e8frvqu19a_record_270.txt
+    |               b7l6etfima63_record_623.txt
+    |               bbrp2uca2ypi_record_476.txt
+    |               bj4kmeuzdlu1_record_276.txt
+    |               bkznyu24xg10_record_69.txt
+    |               bv4xyprnrho3_record_44.txt
+    |               bw7be1yd2kwl_record_107.txt
+    |               bx33ntt6635o_record_357.txt
+    |               byho9ybak6dq_record_732.txt
+    |               bzgfc5nr42t7_record_563.txt
+    |               c0z80508mbf1_record_567.txt
+    |               c13mpgnm76zd_record_736.txt
+    |               c3hqdgspvygz_record_546.txt
+    |               c44su5f1ebp7_record_326.txt
+    |               c4alk4hnwoi4_record_613.txt
+    |               c4t8hyvq899t_record_735.txt
+    |               c5bhu6r2boij_record_698.txt
+    |               c6iqm91rsty1_record_273.txt
+    |               c6xu1wyd3c0j_record_265.txt
+    |               c7i9itg7uv7r_record_527.txt
+    |               c7qmlq08sii6_record_723.txt
+    |               c9jmcrm2s73z_record_120.txt
+    |               ccqx7bklo8o0_record_530.txt
+    |               cd8j95bkllr1_record_241.txt
+    |               ce5rwe6dav0y_record_553.txt
+    |               cf8jum309squ_record_46.txt
+    |               cflkrui6oowt_record_53.txt
+    |               cgjv2w3qbfs9_record_237.txt
+    |               cm7zbz2aabef_record_185.txt
+    |               ctij0cqbrb23_record_564.txt
+    |               cu5i74q9l0ux_record_396.txt
+    |               cuqf0khp28rh_record_426.txt
+    |               cv09mlyk68c8_record_353.txt
+    |               czqwg12i2srr_record_154.txt
+    |               d19m9lrvoxvc_record_8.txt
+    |               d3kppllgtoe3_record_742.txt
+    |               d4psvjkoe4xc_record_394.txt
+    |               d62zgkpvspi1_record_373.txt
+    |               d7jnyz59vi55_record_82.txt
+    |               d87jtl2jbrl5_record_336.txt
+    |               dc6mvk3iv26c_record_109.txt
+    |               ddnoe3i84srs_record_608.txt
+    |               dikmkjotb85a_record_664.txt
+    |               dj5i7hbw4639_record_153.txt
+    |               dn9l4050q8tg_record_322.txt
+    |               dnmadb82gjhz_record_488.txt
+    |               dolzgnhh46mx_record_731.txt
+    |               drgyiag6fn5d_record_540.txt
+    |               dsiy8h43wczy_record_166.txt
+    |               dtzdp1dsetr7_record_574.txt
+    |               du99blm0vhnh_record_559.txt
+    |               dv0wf5loyn0n_record_552.txt
+    |               dxxu5m0iuxas_record_496.txt
+    |               e2pa22qmn5zx_record_178.txt
+    |               e5u4kvzgkra3_record_462.txt
+    |               e6miwywbepcm_record_135.txt
+    |               ebs6oeekxufr_record_5.txt
+    |               edfe92sbbetp_record_142.txt
+    |               eh6big4xzl05_record_446.txt
+    |               ehbbppcjp4gv_record_614.txt
+    |               ehiv57sr63fc_record_465.txt
+    |               ei19tswz0ilr_record_646.txt
+    |               ei1wed81bpt8_record_700.txt
+    |               ejdbprxru0fs_record_681.txt
+    |               ek72dr5fiuud_record_260.txt
+    |               ekca5wplpvq1_record_215.txt
+    |               el05p9fk24xc_record_410.txt
+    |               emxm0rc1rc3c_record_472.txt
+    |               eoqjwmjvqls5_record_661.txt
+    |               eqg07gglk9m9_record_130.txt
+    |               es5y6w2x0ah5_record_290.txt
+    |               es98zwsx1pbv_record_63.txt
+    |               ezd0vkcbveeg_record_374.txt
+    |               f0jd2rmmnvvq_record_612.txt
+    |               f1vma96wrcmq_record_593.txt
+    |               f5cz3wcz3zw4_record_345.txt
+    |               f6576n0jyud0_record_297.txt
+    |               f6wu58kjxtt5_record_179.txt
+    |               fc9vgtxf5ttj_record_192.txt
+    |               fda6twuq24yl_record_675.txt
+    |               ff0rnqyt5dbc_record_213.txt
+    |               ff1zt4jetwlz_record_360.txt
+    |               fix05yw0lrwp_record_40.txt
+    |               fkh8a926qsam_record_467.txt
+    |               fl9asibq0l95_record_697.txt
+    |               fn5lcqrmhr6y_record_589.txt
+    |               fspb76nasg1e_record_708.txt
+    |               fsx0v2om5nyd_record_361.txt
+    |               fvboy0hdb7ad_record_578.txt
+    |               fvr3pwdbnat7_record_554.txt
+    |               fwlw3wasrxyz_record_41.txt
+    |               g1by42a7t07w_record_162.txt
+    |               g3pymump6b4b_record_505.txt
+    |               g4eedsux15yb_record_285.txt
+    |               g5d2j4awg182_record_529.txt
+    |               g9b0l7hgvgm1_record_741.txt
+    |               gbuisxo1tv03_record_652.txt
+    |               gh8ozmbb3uai_record_167.txt
+    |               ghakbstsertl_record_605.txt
+    |               gil71ef1yv9a_record_509.txt
+    |               gkqu2i918933_record_517.txt
+    |               glbhelu3d741_record_308.txt
+    |               gm9oqdrrtze7_record_175.txt
+    |               gnfnqg2wxhz3_record_429.txt
+    |               gp45239ai7x3_record_222.txt
+    |               gp9o5jpc4sv4_record_291.txt
+    |               grco3v2qo16v_record_617.txt
+    |               gruwf7da8nxf_record_543.txt
+    |               gt8bww6wkhit_record_221.txt
+    |               gvhr1aq9dkpa_record_485.txt
+    |               gvpo6ty228am_record_419.txt
+    |               gvsrpcqh4l5r_record_94.txt
+    |               gw5hmhpef8a4_record_673.txt
+    |               gzkd8zmklull_record_296.txt
+    |               h2wqhb4xctfv_record_193.txt
+    |               h3t2oid0empg_record_604.txt
+    |               h4fpz1tmch6v_record_656.txt
+    |               h73ykgyjt3hz_record_52.txt
+    |               h7we5pwhmlp6_record_729.txt
+    |               h8la7rwsbllz_record_449.txt
+    |               hdu3xshzj24x_record_595.txt
+    |               hgnxpv0nkk7w_record_570.txt
+    |               hh0c0kemaj12_record_327.txt
+    |               him7lh2bl4we_record_458.txt
+    |               hkmdk36y46re_record_703.txt
+    |               hpfk6yrzumax_record_508.txt
+    |               hsdw2swtm4ir_record_631.txt
+    |               htt0fslqp964_record_682.txt
+    |               hur8xkge80kx_record_392.txt
+    |               hx8nx9aug1fb_record_522.txt
+    |               hz8t697gvaov_record_150.txt
+    |               hzrm95f8r394_record_662.txt
+    |               i2xy8jst4s1e_record_481.txt
+    |               i41qzl6zv59w_record_253.txt
+    |               i6oei3oiw22z_record_727.txt
+    |               i6qnndw7znbx_record_438.txt
+    |               i7wqfbmipgwf_record_639.txt
+    |               i9xyf5wkfk0x_record_232.txt
+    |               ibo45cqqxknr_record_54.txt
+    |               iddqjxi1umzy_record_653.txt
+    |               idhmssyw24hc_record_611.txt
+    |               igxaxf323l36_record_556.txt
+    |               ij2yxqyfkmjm_record_713.txt
+    |               ije6w5s2zq0c_record_274.txt
+    |               ijffe7hjfs8f_record_198.txt
+    |               ikko1e5qpyw1_record_466.txt
+    |               innui56uch8g_record_9.txt
+    |               iq031a262t1o_record_78.txt
+    |               iq28yx004v04_record_500.txt
+    |               iqogm8r4n6jl_record_235.txt
+    |               iqx7jvx76pl9_record_316.txt
+    |               isd4zc7qkncq_record_19.txt
+    |               it0vfbixe59u_record_79.txt
+    |               iut1o7dmn7x7_record_404.txt
+    |               iwhq68buku3c_record_598.txt
+    |               iyo32tk4b47m_record_717.txt
+    |               j0cl60zoxt2k_record_121.txt
+    |               j0q49ukp69y0_record_364.txt
+    |               j3kxuny7nnhq_record_715.txt
+    |               j3llf0hw8srb_record_124.txt
+    |               j3vc7img9cqb_record_507.txt
+    |               j5rdwim7m4xu_record_684.txt
+    |               j5yx0w3wmgmb_record_560.txt
+    |               ja33cju4jboi_record_685.txt
+    |               jb8ijm4bod3t_record_624.txt
+    |               jckd8vy698ts_record_133.txt
+    |               jd61xqq1dwxz_record_580.txt
+    |               jihv1k7ed1jm_record_721.txt
+    |               jm2sdbchqa2g_record_460.txt
+    |               jmh6ya8we5of_record_183.txt
+    |               jtn899kbwi9j_record_30.txt
+    |               ju60oylknxrb_record_740.txt
+    |               juts232l88px_record_187.txt
+    |               jvbufsplgvt8_record_672.txt
+    |               jx4o6kj483be_wiki.txt
+    |               jxl91wg8ejk3_record_242.txt
+    |               k200qntez242_record_4.txt
+    |               k2wikuqnmwk4_record_136.txt
+    |               k3hcr5yy152m_record_244.txt
+    |               k8rmm9um1ga5_record_640.txt
+    |               k96ejmdbhe53_record_229.txt
+    |               kb4pthlvpumk_record_262.txt
+    |               kba14lzz0pyt_record_214.txt
+    |               kclp01sdjzil_record_489.txt
+    |               kg0aw94d00dx_record_156.txt
+    |               kgg6lxy5xt4r_record_284.txt
+    |               khjs1ru3aoau_record_375.txt
+    |               khu92lefidq1_record_658.txt
+    |               ki58g8zcv797_wiki.txt
+    |               kktk3wmpjpq2_record_482.txt
+    |               kp7zpu8p8hpj_record_381.txt
+    |               kqt89pgr50ns_record_56.txt
+    |               kr0kxuyrl8ds_record_443.txt
+    |               krc0ib76y50v_record_35.txt
+    |               krn2g5xunupo_record_486.txt
+    |               ksez1a7kmsl1_record_621.txt
+    |               ktb8566rdp1o_record_263.txt
+    |               ktbady1ci4rb_record_728.txt
+    |               kvwv9ozve28i_record_738.txt
+    |               kx3epcg9ygrf_record_549.txt
+    |               kyg4ee15qayk_record_164.txt
+    |               l061ofkz3mon_record_271.txt
+    |               l0rk25dl03ps_record_390.txt
+    |               l0zlxp2n16lk_record_515.txt
+    |               l17pvw9hz91h_record_386.txt
+    |               l1uyj3hcd1f6_record_329.txt
+    |               l9subot9f9ta_record_468.txt
+    |               lb10ce9rf4el_record_343.txt
+    |               lb1y4e49o3pk_record_470.txt
+    |               ld06zm3hin7z_record_388.txt
+    |               ldv0vuhzrz04_record_337.txt
+    |               lf4oknim7ilh_record_555.txt
+    |               li2nygdjidwf_record_320.txt
+    |               lj1oom8wf60y_record_64.txt
+    |               lk5hcrzjv8mr_record_469.txt
+    |               llkdmazzgsc3_record_16.txt
+    |               lpnqwxm5gf3u_record_635.txt
+    |               lt8uf49prm2u_record_562.txt
+    |               ltqiszzvbkd2_record_171.txt
+    |               luc1ckp0z0u0_record_422.txt
+    |               luq8weluthfl_record_61.txt
+    |               lvm68b0wakut_record_632.txt
+    |               lwb5qxs2w1ms_record_254.txt
+    |               lwkime5p6pcg_record_391.txt
+    |               lyd9tawza2fe_record_474.txt
+    |               m0xcx4noeuaa_record_699.txt
+    |               m1avzq93y5j0_record_433.txt
+    |               m4hqa88ihsjk_record_172.txt
+    |               m5vtukvhtfzw_record_330.txt
+    |               m9iay4qoiz76_record_615.txt
+    |               ma13bn64km4b_record_342.txt
+    |               mhcftj1658ip_record_148.txt
+    |               mksi36jel1j4_record_701.txt
+    |               mktg19akf1sn_record_71.txt
+    |               mpssm6ljpa5q_record_480.txt
+    |               mpztx1yku4fz_record_212.txt
+    |               mr88tljwxgro_record_182.txt
+    |               mzppnl2gar8s_record_349.txt
+    |               mzs0jaaz111m_record_191.txt
+    |               n1ozmgt8b9wo_record_566.txt
+    |               n78hwocr6u7p_record_309.txt
+    |               n7l01gl4yvj2_record_498.txt
+    |               n7z04buaxcfc_record_412.txt
+    |               n8bsokh2rch4_record_441.txt
+    |               n9lnc7gdon4q_record_591.txt
+    |               n9n6xvobgdj5_record_473.txt
+    |               nbqxalxfelg2_record_346.txt
+    |               ncvo1d76c592_record_676.txt
+    |               nfh8rgk2cyyd_record_596.txt
+    |               nfwrrt4f6579_record_42.txt
+    |               nhva055n0opq_record_395.txt
+    |               nkx5f5bbpwby_record_671.txt
+    |               nnkw2sec8uyr_record_77.txt
+    |               nqxj4z1ypzg7_record_139.txt
+    |               ns44ory6vggq_record_339.txt
+    |               nw4emxj9nnya_record_453.txt
+    |               o17r51f8zahu_record_425.txt
+    |               o21yhnx41axd_record_295.txt
+    |               o2sfbs3svk62_record_448.txt
+    |               o5zjy5g9za6l_record_450.txt
+    |               o7qb63otvzi2_record_622.txt
+    |               o84qct0htiag_record_737.txt
+    |               o8g9biqoumpj_record_417.txt
+    |               oedr3ijo08ua_record_6.txt
+    |               ofwz6g1xqy9t_record_650.txt
+    |               ogk94kj14lhg_record_483.txt
+    |               ohjirkb23pn7_record_23.txt
+    |               oipy2fziwwjp_record_310.txt
+    |               okeiaw2bkezi_record_230.txt
+    |               oo2dcrrge4fc_record_521.txt
+    |               oonpht9qv65j_record_243.txt
+    |               orfdski0aguw_record_725.txt
+    |               ov4i8sarlbsv_record_581.txt
+    |               owwpdzmt3qyn_record_27.txt
+    |               p1lprfbh5p7t_record_457.txt
+    |               p287l6ddd5nr_record_484.txt
+    |               p2bhmwx3suz9_record_358.txt
+    |               p2cjit0q2ufy_record_205.txt
+    |               p3gxosxsyeqr_record_25.txt
+    |               p4lnu01wvc1j_record_347.txt
+    |               p818sny55805_record_272.txt
+    |               pad58no5jv6b_record_147.txt
+    |               pao8tnv239da_record_670.txt
+    |               pc6jbddozlts_record_582.txt
+    |               pe6cvx1dbwh7_record_702.txt
+    |               pgotw55ybnza_record_428.txt
+    |               ph44xfrwy29e_record_511.txt
+    |               phmsb9g750rw_record_695.txt
+    |               pk2q4mmtdq02_record_313.txt
+    |               pldpq7rifre0_record_739.txt
+    |               pmf39e9ctxhf_record_561.txt
+    |               pol8emx1pesr_record_26.txt
+    |               pr9bjxwaib4k_record_439.txt
+    |               prxhec6vxu6z_record_32.txt
+    |               pwiu9ha175qh_record_98.txt
+    |               q6e1z4vxptsu_record_89.txt
+    |               q85b1vulkm9v_record_416.txt
+    |               qa609o7zas6g_record_377.txt
+    |               qcfaen3ksufc_record_112.txt
+    |               qfrzfj5i5g8e_record_305.txt
+    |               qgjfe1oacw21_record_184.txt
+    |               qgun9su3xpt9_record_287.txt
+    |               qhmkssu8s8ky_record_200.txt
+    |               qhmmrjjzw5zx_record_389.txt
+    |               qin1ulg82zbu_record_711.txt
+    |               qkncuw57hmwv_record_269.txt
+    |               ql0ps3l1sgxz_record_28.txt
+    |               qryn4t0741mw_record_712.txt
+    |               qtjrghggsvzz_record_542.txt
+    |               qty50l20l476_record_384.txt
+    |               qvcb3e2xplvs_record_38.txt
+    |               qw9scgfzf9b3_record_528.txt
+    |               qx0x5ahf4gtb_record_594.txt
+    |               qx88tumxe23x_record_240.txt
+    |               r31sscbwnh9k_record_210.txt
+    |               r422ntlmqu0k_record_524.txt
+    |               r604plnw1r1v_record_477.txt
+    |               r6xiwogib00h_record_506.txt
+    |               r9u71l9lda5g_record_163.txt
+    |               rbk63zpopnh5_record_719.txt
+    |               reg2yeg42dt3_record_257.txt
+    |               rhuenc71sxmm_record_687.txt
+    |               rjdvgfico9ie_record_219.txt
+    |               rjvkfkwc5w82_record_490.txt
+    |               rll7f77n7ir8_record_430.txt
+    |               rlncsornldgo_record_208.txt
+    |               rnst4pp0ob3n_record_568.txt
+    |               rqq9rqupyphd_record_238.txt
+    |               rryxwepmtlvv_record_344.txt
+    |               rshrg3whze50_record_108.txt
+    |               rus6xrjf8g59_record_204.txt
+    |               rve9ifq3psr5_record_718.txt
+    |               rvkb12usjh30_record_571.txt
+    |               ry5hzd514kd8_record_648.txt
+    |               ryd0a87is23e_record_72.txt
+    |               s2lnr0q2h1og_record_707.txt
+    |               s397bygxdb8u_record_160.txt
+    |               s4ndm0wxf33z_record_421.txt
+    |               s522mb14xhep_record_174.txt
+    |               s6seeohsb6nu_record_300.txt
+    |               s7yytn8h4fnl_record_65.txt
+    |               s8uxugteunyn_record_355.txt
+    |               sasqfsahksvl_record_440.txt
+    |               sbgfnud2ogcf_record_645.txt
+    |               se8wsbbxs2ut_record_669.txt
+    |               sep78ju6r3oj_record_93.txt
+    |               sfsy299jxb6s_record_203.txt
+    |               sjk4fwm16c7e_record_249.txt
+    |               sl72weyj2m5n_record_352.txt
+    |               sn8mkpc22i4q_record_651.txt
+    |               sp5tgmdwlkb2_record_576.txt
+    |               sptdqtmo3ard_record_266.txt
+    |               sq37j4aocmm2_record_7.txt
+    |               sq4f01p0xgaz_record_372.txt
+    |               sqfajsmbk3wc_record_420.txt
+    |               sqo03yk9x5pu_record_217.txt
+    |               ss53ai5u6s5z_record_33.txt
+    |               ssbhgfq7zjbn_record_493.txt
+    |               su8w5ag5ojcy_record_340.txt
+    |               sukn3s9ihysp_record_117.txt
+    |               sv2o97ve1r3r_record_558.txt
+    |               sv7u0jmfjdbo_record_583.txt
+    |               svf2vvks0umj_record_590.txt
+    |               sxf37jkl1rlx_record_371.txt
+    |               sy1pwav28z1a_record_532.txt
+    |               sydv2wyf6p18_record_674.txt
+    |               sye8w3bb244m_record_541.txt
+    |               syps8uvs0co8_record_408.txt
+    |               sz2fbnidrc9w_record_332.txt
+    |               t5gundllfw4q_record_705.txt
+    |               t5sj9bsxzcc2_record_278.txt
+    |               t7p6gwkhz82g_record_537.txt
+    |               t7w51a38cbd8_record_547.txt
+    |               t98yix2zjg8e_record_437.txt
+    |               tce48uar0j7c_record_720.txt
+    |               tdr6wub4kad9_record_406.txt
+    |               tel8tihk78ni_record_158.txt
+    |               tginzbaniw5n_record_234.txt
+    |               tgpt1fc9g7v2_record_501.txt
+    |               ti6i68h19l93_record_101.txt
+    |               tk6l1uxejiy4_record_34.txt
+    |               tmidmfqmtmcw_record_572.txt
+    |               tqffns17mot3_record_157.txt
+    |               tsneoex0tdrf_record_427.txt
+    |               ttuet5651j5i_record_114.txt
+    |               ty2vykn1pdsu_record_370.txt
+    |               tyxfizzm7jw2_record_59.txt
+    |               u2dwko3xenvr_record_654.txt
+    |               u2j5y6q5mbr8_record_67.txt
+    |               u2z4y5zsr5ww_record_463.txt
+    |               u5w9hhlqhizd_record_292.txt
+    |               u7gi7o90lp8x_record_413.txt
+    |               ub1evpy1bktw_record_657.txt
+    |               uckv4q5xevr5_record_323.txt
+    |               uh8cctoc3mj8_record_138.txt
+    |               ui8ajixk0kg2_record_306.txt
+    |               uizsbzi56a0e_record_454.txt
+    |               ujdjx4i2zhtc_record_11.txt
+    |               ujm5h1a2h463_record_380.txt
+    |               umoa6k30a1ur_record_367.txt
+    |               upa6dvuusk0k_record_233.txt
+    |               upm05cq8js5n_record_362.txt
+    |               ur6pprypolm3_record_660.txt
+    |               urk5jmqzxbmc_record_319.txt
+    |               ut9el8c5b7g1_record_102.txt
+    |               uunjw1lqhnni_record_111.txt
+    |               uxjxsf4ymu9v_record_692.txt
+    |               v0m7cnz5e1vn_record_250.txt
+    |               v1aw3ijs22e9_record_228.txt
+    |               v1hyijtat8ss_record_679.txt
+    |               v21pic1zekzz_record_141.txt
+    |               v66q5fqc7cjv_record_659.txt
+    |               v6ymh2klifyg_record_226.txt
+    |               v8p326syr92c_record_145.txt
+    |               v9xtcsaf9hlx_record_126.txt
+    |               vbajipr3fi3r_record_607.txt
+    |               vbk2eqku9vnd_record_743.txt
+    |               vc4q0goitnjc_record_201.txt
+    |               vcopdm1a8dy1_record_293.txt
+    |               vd7kvqwdbeus_record_655.txt
+    |               vgn4e1xss7zi_record_502.txt
+    |               vii52wo2dg79_record_733.txt
+    |               vixnw043rpjw_record_459.txt
+    |               vjqsfvkiznuu_record_418.txt
+    |               vjxigckenrkv_record_400.txt
+    |               vkrziy8wa2if_record_461.txt
+    |               vnwpe8sl2dx6_record_70.txt
+    |               vowvq233zzzt_record_75.txt
+    |               vqtw9ejguhjy_record_455.txt
+    |               vtoigjiskdvb_record_504.txt
+    |               vu5zo7bwir6y_record_642.txt
+    |               vvbl3rmr4gfv_record_143.txt
+    |               vxb8ot9kkh4f_record_12.txt
+    |               w11v4337ny8n_record_211.txt
+    |               w39rw50qpsh6_record_397.txt
+    |               w8vsngpfhgql_record_627.txt
+    |               w95ierqxrxzc_record_104.txt
+    |               wbkeur6zfunu_record_105.txt
+    |               wc34pvb75x3d_record_14.txt
+    |               wdeg2x5qw6g4_record_414.txt
+    |               wgb7jnvxoeu4_record_600.txt
+    |               whpnxihhlp5v_record_324.txt
+    |               whxobdkoxtfn_record_351.txt
+    |               wl4az3mavmx1_record_523.txt
+    |               wli384q9i8vp_record_127.txt
+    |               wou2pxwp7z77_record_176.txt
+    |               woveitce652z_record_311.txt
+    |               wxg3t8f3o099_record_610.txt
+    |               wzkf3a2qcwpa_record_76.txt
+    |               x1a95odlfcb6_record_432.txt
+    |               x258oye0dc15_record_592.txt
+    |               x323cb5g14hz_record_294.txt
+    |               x3atbb2aa540_record_48.txt
+    |               x42i9a7sphry_record_734.txt
+    |               x5cmtpui0rds_record_140.txt
+    |               x8mi9ort0d72_record_318.txt
+    |               xa9w6zifwwqz_record_714.txt
+    |               xbbimsmem54e_record_385.txt
+    |               xbjw2qw1l6yk_record_236.txt
+    |               xbsoil0eawst_record_363.txt
+    |               xj7pzk8icldk_wiki.txt
+    |               xkzo26e6a9s2_record_173.txt
+    |               xlign25b3x90_record_350.txt
+    |               xmk949swzhu3_record_620.txt
+    |               xn0eht8meyll_record_281.txt
+    |               xn1ogw3gwhe3_record_256.txt
+    |               xoojoxg4nbkf_record_557.txt
+    |               xpv9g6lbjxay_record_68.txt
+    |               xq1bfyci4puc_record_534.txt
+    |               xr47itu4ncoc_record_331.txt
+    |               xrticbr9de1v_record_710.txt
+    |               xs3hivm59xsa_record_268.txt
+    |               xsmpmhhhubbf_record_199.txt
+    |               xug4z7a9m5q3_record_137.txt
+    |               xxmzokw9uohl_record_115.txt
+    |               xza0s10v6ogn_record_403.txt
+    |               y0298mm8p3bx_record_399.txt
+    |               y06nl066rj4y_record_181.txt
+    |               y0fkyhg6oseq_record_730.txt
+    |               ya61evh4mtd4_record_609.txt
+    |               yasobmw98pma_record_666.txt
+    |               yffp25mq6pqh_record_317.txt
+    |               yfhlzp3jegka_record_359.txt
+    |               yg4yrehrsyq4_record_629.txt
+    |               ygafgpei9f8t_record_188.txt
+    |               yhjgklcp114z_record_588.txt
+    |               yju0fxp611vk_record_151.txt
+    |               ylb2qh5z8w9v_record_402.txt
+    |               ypl4bm4hp22y_record_37.txt
+    |               yqwajb92q7mr_record_119.txt
+    |               yulh04gg79oo_record_597.txt
+    |               yvk5eftbf65x_record_694.txt
+    |               yvy88pus67ty_record_431.txt
+    |               yx4jvlmhvjm4_record_603.txt
+    |               z2gbnm2mpqz2_record_338.txt
+    |               z5asypk452gi_sodapdfconverted.pdf
+    |               z708668vxgv3_record_15.txt
+    |               za5beypbd5kq_record_575.txt
+    |               zai3lo2pe0im_record_128.txt
+    |               ze23vqsr46va_record_282.txt
+    |               zg7xtad28a48_record_538.txt
+    |               zgwe7hid03tg_record_503.txt
+    |               zh0jxroif168_record_550.txt
+    |               zk21bktvzzrr_record_434.txt
+    |               znf72muzvsgk_record_66.txt
+    |               zofbag71czwq_record_224.txt
+    |               zow1xngobuvn_record_366.txt
+    |               zu7xipv19r4i_record_216.txt
+    |               zubczdoyz82g_record_636.txt
+    |               zuriu84nhane_record_186.txt
+    |               zvr0wmr5gdly_record_144.txt
+    |               zvwwjnhwekkv_record_452.txt
+    |               zwm91gnek0sv_record_45.txt
+    |               zwtsg3ag5727_record_258.txt
+    |               
+    +---controllers
+    |   |   BaseController.py
+    |   |   DataController.py
+    |   |   NLPController.py
+    |   |   ProcessController.py
+    |   |   ProjectController.py
+    |   |   __init__.py
+    |   |   
+    |   \---__pycache__
+    |           BaseController.cpython-312.pyc
+    |           DataController.cpython-312.pyc
+    |           NLPController.cpython-312.pyc
+    |           ProcessController.cpython-312.pyc
+    |           ProjectController.cpython-312.pyc
+    |           __init__.cpython-312.pyc
+    |           
+    +---helpers
+    |   |   config.py
+    |   |   __init__.py
+    |   |   
+    |   \---__pycache__
+    |           config.cpython-312.pyc
+    |           __init__.cpython-312.pyc
+    |           
+    +---models
+    |   |   AssetModel.py
+    |   |   BaseDataModel.py
+    |   |   ChunkModel.py
+    |   |   ProjectModel.py
+    |   |   __init__.py
+    |   |   
+    |   +---db_schemes
+    |   |   |   __init__.py
+    |   |   |   
+    |   |   +---minirag
+    |   |   |   |   .gitignore
+    |   |   |   |   alembic.ini
+    |   |   |   |   README.md
+    |   |   |   |   __init__.py
+    |   |   |   |   
+    |   |   |   +---alembic
+    |   |   |   |   |   env.py
+    |   |   |   |   |   README
+    |   |   |   |   |   script.py.mako
+    |   |   |   |   |   
+    |   |   |   |   +---versions
+    |   |   |   |   |   |   e709fc871a08_initial_commit.py
+    |   |   |   |   |   |   
+    |   |   |   |   |   \---__pycache__
+    |   |   |   |   |           e709fc871a08_initial_commit.cpython-312.pyc
+    |   |   |   |   |           
+    |   |   |   |   \---__pycache__
+    |   |   |   |           env.cpython-312.pyc
+    |   |   |   |           
+    |   |   |   +---schemes
+    |   |   |   |   |   asset.py
+    |   |   |   |   |   datachunk.py
+    |   |   |   |   |   minirag_base.py
+    |   |   |   |   |   project.py
+    |   |   |   |   |   __init__.py
+    |   |   |   |   |   
+    |   |   |   |   \---__pycache__
+    |   |   |   |           asset.cpython-312.pyc
+    |   |   |   |           datachunk.cpython-312.pyc
+    |   |   |   |           minirag_base.cpython-312.pyc
+    |   |   |   |           project.cpython-312.pyc
+    |   |   |   |           __init__.cpython-312.pyc
+    |   |   |   |           
+    |   |   |   \---__pycache__
+    |   |   |           __init__.cpython-312.pyc
+    |   |   |           
+    |   |   \---__pycache__
+    |   |           __init__.cpython-312.pyc
+    |   |           
+    |   +---enums
+    |   |   |   AssetTypeEnum.py
+    |   |   |   DataBaseEnum.py
+    |   |   |   ProcessingEnum.py
+    |   |   |   ResponseEnums.py
+    |   |   |   __init__.py
+    |   |   |   
+    |   |   \---__pycache__
+    |   |           AssetTypeEnum.cpython-312.pyc
+    |   |           DataBaseEnum.cpython-312.pyc
+    |   |           ProcessingEnum.cpython-312.pyc
+    |   |           ResponseEnums.cpython-312.pyc
+    |   |           __init__.cpython-312.pyc
+    |   |           
+    |   \---__pycache__
+    |           AssetModel.cpython-312.pyc
+    |           BaseDataModel.cpython-312.pyc
+    |           ChunkModel.cpython-312.pyc
+    |           ProjectModel.cpython-312.pyc
+    |           __init__.cpython-312.pyc
+    |           
+    +---routes
+    |   |   base.py
+    |   |   data.py
+    |   |   nlp.py
+    |   |   __init__.py
+    |   |   
+    |   +---schemes
+    |   |   |   data.py
+    |   |   |   nlp.py
+    |   |   |   __init__.py
+    |   |   |   
+    |   |   \---__pycache__
+    |   |           data.cpython-312.pyc
+    |   |           nlp.cpython-312.pyc
+    |   |           __init__.cpython-312.pyc
+    |   |           
+    |   \---__pycache__
+    |           base.cpython-312.pyc
+    |           data.cpython-312.pyc
+    |           nlp.cpython-312.pyc
+    |           __init__.cpython-312.pyc
+    |           
+    +---stores
+    |   +---llm
+    |   |   |   LLMEnums.py
+    |   |   |   LLMInterface.py
+    |   |   |   LLMProviderFactory.py
+    |   |   |   __init__.py
+    |   |   |   
+    |   |   +---providers
+    |   |   |   |   CoHereProvider.py
+    |   |   |   |   DeepSeekProvider.py
+    |   |   |   |   OpenAIProvider.py
+    |   |   |   |   __init__.py
+    |   |   |   |   
+    |   |   |   \---__pycache__
+    |   |   |           CoHereProvider.cpython-312.pyc
+    |   |   |           DeepSeekProvider.cpython-312.pyc
+    |   |   |           OpenAIProvider.cpython-312.pyc
+    |   |   |           __init__.cpython-312.pyc
+    |   |   |           
+    |   |   +---templates
+    |   |   |   |   template_parser.py
+    |   |   |   |   __init__.py
+    |   |   |   |   
+    |   |   |   +---locales
+    |   |   |   |   |   __init__.py
+    |   |   |   |   |   
+    |   |   |   |   +---ar
+    |   |   |   |   |       rag.py
+    |   |   |   |   |       __init__.py
+    |   |   |   |   |       
+    |   |   |   |   +---en
+    |   |   |   |   |   |   rag.py
+    |   |   |   |   |   |   __init__.py
+    |   |   |   |   |   |   
+    |   |   |   |   |   \---__pycache__
+    |   |   |   |   |           rag.cpython-312.pyc
+    |   |   |   |   |           __init__.cpython-312.pyc
+    |   |   |   |   |           
+    |   |   |   |   \---__pycache__
+    |   |   |   |           __init__.cpython-312.pyc
+    |   |   |   |           
+    |   |   |   \---__pycache__
+    |   |   |           template_parser.cpython-312.pyc
+    |   |   |           __init__.cpython-312.pyc
+    |   |   |           
+    |   |   \---__pycache__
+    |   |           LLMEnums.cpython-312.pyc
+    |   |           LLMInterface.cpython-312.pyc
+    |   |           LLMProviderFactory.cpython-312.pyc
+    |   |           __init__.cpython-312.pyc
+    |   |           
+    |   \---vectordb
+    |       |   VectorDBEnums.py
+    |       |   VectorDBInterface.py
+    |       |   VectorDBProviderFactory.py
+    |       |   __init__.py
+    |       |   
+    |       +---providers
+    |       |   |   QdrantDBProvider.py
+    |       |   |   __init__.py
+    |       |   |   
+    |       |   \---__pycache__
+    |       |           QdrantDBProvider.cpython-312.pyc
+    |       |           __init__.cpython-312.pyc
+    |       |           
+    |       \---__pycache__
+    |               VectorDBEnums.cpython-312.pyc
+    |               VectorDBInterface.cpython-312.pyc
+    |               VectorDBProviderFactory.cpython-312.pyc
+    |               __init__.cpython-312.pyc
+    |               
+    \---__pycache__
+            main.cpython-312.pyc
+            
