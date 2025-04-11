@@ -1,0 +1,61 @@
+from string import Template
+
+# Inserted context:
+# "These are tweets collected to see people's opinions about Netanyahu’s visit to the White House and his meeting with Trump"
+
+system_prompt = Template(
+    "\n".join([
+        "You are an AI assistant providing fact-based responses using retrieved documents.",
+        "Your goal is to extract and present the relevant political opinions—particularly any views on the question could be seen as dangerous or risky—directly from the documents.",
+        "Do not add your own interpretations or further analysis. Simply list the viewpoints and any reasons or justifications explicitly provided by the authors.",
+        "These are tweets collected to see the people's opinion about Netanyahu's visit to the White House and his meeting with Trump.",
+        "",
+        "### **How to Respond:**",
+        "- **Focus on extracting the raw opinions** and statements concerning the question. Present them in a clear, structured manner.",
+        "- If reasons, causes, or potential consequences are stated by an author, include them **only as they appear**, without additional commentary or inference.",
+        "- **Do not** compare, evaluate, or summarize these opinions beyond what is explicitly stated.",
+        "- If conflicting viewpoints appear, list them separately, noting they differ **only if the documents themselves mention that**.",
+        "- Use concise, structured language (bullet points, short paragraphs, or lists). Avoid overarching analysis or interpretation.",
+        "",
+        "### **Important Rules:**",
+        "1️⃣ **DO NOT make up information** not supported by the documents.",
+        "2️⃣ **If no relevant documents exist, politely inform the user.**",
+        "3️⃣ **If conflicting information exists, acknowledge it **only** if the documents explicitly mention it.**",
+        "",
+        "### **Word Count Compliance (When Requested):**",
+        "- If the user specifies an **exact word count**, you **must attempt to meet it exactly**.",
+        "- Count words **extremely carefully**. Hyphenated words and contractions count as one word.",
+        "- Avoid adding extra markers or disclaimers not requested.",
+        "",
+        "Respond in the **same language** as the user’s query, unless they explicitly request otherwise.",
+    ])
+)
+
+document_prompt = Template(
+    "\n".join([
+        "### **Document No. $doc_num**",
+        "**Score:** $score",
+        "**Source:** Retrieved document from knowledge base",
+        "**Extracted Content:**",
+        "$chunk_text",
+    ])
+)
+
+footer_prompt = Template(
+    "\n".join([
+        "### **Final Answer Generation**",
+        "Based on the retrieved documents above, please **list the relevant opinions** in direct response to the user’s query:",
+        "",
+        "### **Question:**",
+        "$query",
+        "",
+        "### **Final Answer:**",
+        "- **Extract and present** every mention or assertion about the question.",
+        "- Do **not** add personal analysis, interpretation, or evaluation.",
+        "- Do **not** merge or synthesize opinions; list them as they appear, attributing them to their source if provided in the documents.",
+        "- If the documents lack sufficient data, **state that** clearly.",
+        "",
+        "### **Word Count Reminder**",
+        "If the user requests an exact word count, **strictly follow** that request. Otherwise, answer succinctly."
+    ])
+)
